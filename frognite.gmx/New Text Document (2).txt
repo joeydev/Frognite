@@ -1,0 +1,20 @@
+app id: ca-app-pub-1040526941455873~7174313057
+
+
+device id: 93f507cacfb380ad8264d6450d3596bb
+
+
+ad id (banner2): ca-app-pub-1040526941455873/3194962607
+
+
+snail admob
+
+game id: ca-app-pub-9794144864612042~6750648947
+
+ad id: ca-app-pub-9794144864612042/1470402103
+
+
+
+mopub:
+
+ad unit: 7603b3e2c97947169749675691b293e2

@@ -1,0 +1,154 @@
+Converting GML script: ${project_dir}\scripts\setupBackgrounds\setupBackgrounds.gml
+Converted builtin - line 5: background_visible[0] = true -> __background_set( e__BG.Visible, 0, true )
+Converted builtin - line 13: background_visible[1] = true -> __background_set( e__BG.Visible, 1, true )
+Converted builtin - line 2: background_index[0] = bg_top -> __background_set( e__BG.Index, 0, bg_top )
+Converted builtin - line 10: background_index[1] = bg_middle -> __background_set( e__BG.Index, 1, bg_middle )
+Converted builtin - line 16: background_y[1] = 246 -> __background_set( e__BG.Y, 1, 246 )
+Converted builtin - line 7: background_vtiled[0] = false -> __background_set( e__BG.VTiled, 0, false )
+Converted builtin - line 15: background_vtiled[1] = false -> __background_set( e__BG.VTiled, 1, false )
+Converted builtin - line 3: background_xscale[0] = .5 -> __background_set( e__BG.XScale, 0, .5 )
+Converted builtin - line 11: background_xscale[1] = .5 -> __background_set( e__BG.XScale, 1, .5 )
+Converted builtin - line 4: background_yscale[0] = .5 -> __background_set( e__BG.YScale, 0, .5 )
+Converted builtin - line 12: background_yscale[1] = .5 -> __background_set( e__BG.YScale, 1, .5 )
+Converted builtin - line 6: background_hspeed[0] = -global.currentSpeed * .008 -> __background_set( e__BG.HSpeed, 0, -global.currentSpeed * .008 )
+Converted builtin - line 14: background_hspeed[1] = -global.currentSpeed -> __background_set( e__BG.HSpeed, 1, -global.currentSpeed )
+
+Converting GML script: ${project_dir}\scripts\startGame\startGame.gml
+Converted builtin - line 18: background_hspeed[1] = -1.5 -> __background_set( e__BG.HSpeed, 1, -1.5 )
+Converted builtin - line 19: background_hspeed[0] = -.0125 -> __background_set( e__BG.HSpeed, 0, -.0125 )
+
+Converting GML script: ${project_dir}\scripts\purchase_product_iap\purchase_product_iap.gml
+Converted description /// @description purchase_product_iap(global.products[index],successful-action[alarm_index],canceled-action[alarm_index],consumable[boolean])/// @param global.products[index]
+/// @param successful-action[alarm_index]
+/// @param canceled-action[alarm_index]
+/// @param consumable[boolean]
+
+Converting GML script: ${project_dir}\scripts\activate_iaps\activate_iaps.gml
+Converted description /// @description activate_iaps();
+
+Converting GML script: ${project_dir}\scripts\async_product_iap\async_product_iap.gml
+Converted description /// @description async_product_iap();
+
+Converting GML script: ${project_dir}\scripts\async_purchase_iap\async_purchase_iap.gml
+Converted description /// @description async_purchase_iap();
+
+Font LuckiestGuy has been converted to font family Luckiest Guy (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\LuckiestGuy\LuckiestGuy.gms1.png
+Converting GML script: ${project_dir}\objects\obj_purchase\Alarm_1.gml
+Converted description /// @description Cancelled
+
+Converting GML script: ${project_dir}\objects\obj_purchase\Alarm_0.gml
+Converted description /// @description Action Successful
+
+Converting GML script: ${project_dir}\objects\obj_purchase\Other_66.gml
+Converted description /// @description Actual logic
+
+Converting GML script: ${project_dir}\objects\obj_iap\Create_0.gml
+Converted description /// @description Init iaps
+
+Converting GML script: ${project_dir}\objects\obj_iap\Other_66.gml
+Converted description /// @description Get products info
+
+Converting GML script: ${project_dir}\objects\o_unpause_btn\Mouse_7.gml
+Converted builtin - line 7: background_hspeed[0] = -global.currentSpeed * .008 -> __background_set( e__BG.HSpeed, 0, -global.currentSpeed * .008 )
+Converted builtin - line 8: background_hspeed[1] = -global.currentSpeed -> __background_set( e__BG.HSpeed, 1, -global.currentSpeed )
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Converting GML script: ${project_dir}\objects\o_transitions\Create_0.gml
+Converted builtin - line 6: background_hspeed[0] = 0 -> __background_set( e__BG.HSpeed, 0, 0 )
+Converted builtin - line 7: background_hspeed[1] = 0 -> __background_set( e__BG.HSpeed, 1, 0 )
+Converted builtin - line 10: background_hspeed[0] = 0 -> __background_set( e__BG.HSpeed, 0, 0 )
+Converted builtin - line 11: background_hspeed[1] = 0 -> __background_set( e__BG.HSpeed, 1, 0 )
+Converted builtin - line 16: background_hspeed[0] = 0 -> __background_set( e__BG.HSpeed, 0, 0 )
+Converted builtin - line 17: background_hspeed[1] = 0 -> __background_set( e__BG.HSpeed, 1, 0 )
+Converted builtin - line 26: background_hspeed[0] = 0 -> __background_set( e__BG.HSpeed, 0, 0 )
+Converted builtin - line 27: background_hspeed[1] = 0 -> __background_set( e__BG.HSpeed, 1, 0 )
+Converted builtin - line 35: background_hspeed[0] = 0 -> __background_set( e__BG.HSpeed, 0, 0 )
+Converted builtin - line 36: background_hspeed[1] = 0 -> __background_set( e__BG.HSpeed, 1, 0 )
+Converted builtin - line 63: background_hspeed[0] = 0 -> __background_set( e__BG.HSpeed, 0, 0 )
+Converted builtin - line 64: background_hspeed[1] = 0 -> __background_set( e__BG.HSpeed, 1, 0 )
+
+Converting GML script: ${project_dir}\objects\o_transitions\Step_0.gml
+Converted builtin - line 20: background_hspeed[0] = tSpeed * .008 -> __background_set( e__BG.HSpeed, 0, tSpeed * .008 )
+Converted builtin - line 21: background_hspeed[1] = tSpeed -> __background_set( e__BG.HSpeed, 1, tSpeed )
+Converted builtin - line 25: background_hspeed[1] = -1.5 -> __background_set( e__BG.HSpeed, 1, -1.5 )
+Converted builtin - line 26: background_hspeed[0] = -0.012 -> __background_set( e__BG.HSpeed, 0, -0.012 )
+Converted builtin - line 72: background_hspeed[0] = tSpeed * .008 -> __background_set( e__BG.HSpeed, 0, tSpeed * .008 )
+Converted builtin - line 73: background_hspeed[1] = tSpeed -> __background_set( e__BG.HSpeed, 1, tSpeed )
+Converted builtin - line 77: background_hspeed[1] = -1.5 -> __background_set( e__BG.HSpeed, 1, -1.5 )
+Converted builtin - line 78: background_hspeed[0] = -0.012 -> __background_set( e__BG.HSpeed, 0, -0.012 )
+Converted builtin - line 100: background_hspeed[0] = tSpeed * .008 -> __background_set( e__BG.HSpeed, 0, tSpeed * .008 )
+Converted builtin - line 101: background_hspeed[1] = tSpeed -> __background_set( e__BG.HSpeed, 1, tSpeed )
+Converted builtin - line 104: background_hspeed[1] = -1.5 -> __background_set( e__BG.HSpeed, 1, -1.5 )
+Converted builtin - line 105: background_hspeed[0] = -0.012 -> __background_set( e__BG.HSpeed, 0, -0.012 )
+Converted builtin - line 128: background_hspeed[0] = tSpeed * .008 -> __background_set( e__BG.HSpeed, 0, tSpeed * .008 )
+Converted builtin - line 129: background_hspeed[1] = tSpeed -> __background_set( e__BG.HSpeed, 1, tSpeed )
+Converted builtin - line 134: background_hspeed[0] = 0 -> __background_set( e__BG.HSpeed, 0, 0 )
+Converted builtin - line 135: background_hspeed[1] = 0 -> __background_set( e__BG.HSpeed, 1, 0 )
+Converted builtin - line 166: background_hspeed[0] = tSpeed * .008 -> __background_set( e__BG.HSpeed, 0, tSpeed * .008 )
+Converted builtin - line 167: background_hspeed[1] = tSpeed -> __background_set( e__BG.HSpeed, 1, tSpeed )
+Converted builtin - line 172: background_hspeed[0] = 0 -> __background_set( e__BG.HSpeed, 0, 0 )
+Converted builtin - line 173: background_hspeed[1] = 0 -> __background_set( e__BG.HSpeed, 1, 0 )
+Converted builtin - line 212: background_hspeed[0] = tSpeed * .008 -> __background_set( e__BG.HSpeed, 0, tSpeed * .008 )
+Converted builtin - line 213: background_hspeed[1] = tSpeed -> __background_set( e__BG.HSpeed, 1, tSpeed )
+Converted builtin - line 217: background_hspeed[0] = 0 -> __background_set( e__BG.HSpeed, 0, 0 )
+Converted builtin - line 218: background_hspeed[1] = 0 -> __background_set( e__BG.HSpeed, 1, 0 )
+Converted builtin - line 255: background_hspeed[0] = tSpeed * .008 -> __background_set( e__BG.HSpeed, 0, tSpeed * .008 )
+Converted builtin - line 256: background_hspeed[1] = tSpeed -> __background_set( e__BG.HSpeed, 1, tSpeed )
+Converted builtin - line 260: background_hspeed[1] = -1.5 -> __background_set( e__BG.HSpeed, 1, -1.5 )
+Converted builtin - line 261: background_hspeed[0] = -0.012 -> __background_set( e__BG.HSpeed, 0, -0.012 )
+Converted builtin - line 297: background_hspeed[0] = tSpeed * .008 -> __background_set( e__BG.HSpeed, 0, tSpeed * .008 )
+Converted builtin - line 298: background_hspeed[1] = tSpeed -> __background_set( e__BG.HSpeed, 1, tSpeed )
+Converted builtin - line 303: background_hspeed[0] = 0 -> __background_set( e__BG.HSpeed, 0, 0 )
+Converted builtin - line 304: background_hspeed[1] = 0 -> __background_set( e__BG.HSpeed, 1, 0 )
+
+Converting GML script: ${project_dir}\objects\o_bgSlower\Create_0.gml
+Converted builtin - line 1: background_hspeed[0] -> __background_get( e__BG.HSpeed, 0 )
+Converted builtin - line 2: background_hspeed[1] -> __background_get( e__BG.HSpeed, 1 )
+
+Converting GML script: ${project_dir}\objects\o_bgSlower\Step_0.gml
+Converted builtin - line 1: background_hspeed[1] -> __background_get( e__BG.HSpeed, 1 )
+Converted builtin - line 2: background_hspeed[1] += (midStartSpeed / 36) * -1 -> __background_set( e__BG.HSpeed, 1, __background_get( e__BG.HSpeed, 1 ) + ((midStartSpeed / 36) * -1) )
+Converted builtin - line 3: background_hspeed[0] += (backStartSpeed / 36) * -1 -> __background_set( e__BG.HSpeed, 0, __background_get( e__BG.HSpeed, 0 ) + ((backStartSpeed / 36) * -1) )
+Converted builtin - line 6: background_hspeed[1] = 0 -> __background_set( e__BG.HSpeed, 1, 0 )
+Converted builtin - line 7: background_hspeed[0] = 0 -> __background_set( e__BG.HSpeed, 0, 0 )
+
+Converting GML script: ${project_dir}\objects\mainController\Step_0.gml
+Converted builtin - line 8: background_hspeed[0] = 0 -> __background_set( e__BG.HSpeed, 0, 0 )
+Converted builtin - line 9: background_hspeed[1] = 0 -> __background_set( e__BG.HSpeed, 1, 0 )
+Converted builtin - line 86: background_hspeed[0] = -global.currentSpeed * .008 -> __background_set( e__BG.HSpeed, 0, -global.currentSpeed * .008 )
+Converted builtin - line 87: background_hspeed[1] = -global.currentSpeed -> __background_set( e__BG.HSpeed, 1, -global.currentSpeed )
+
+Missing audiogroup for sound: 'title_music' - setting to default audio group
+Missing audiogroup for sound: 'jump' - setting to default audio group
+Missing audiogroup for sound: 'die' - setting to default audio group
+Missing audiogroup for sound: 'game_music_1' - setting to default audio group
+Missing audiogroup for sound: 'game_music_2' - setting to default audio group
+Missing audiogroup for sound: 'game_music_3' - setting to default audio group
+Missing audiogroup for sound: 'game_music_4' - setting to default audio group
+Missing audiogroup for sound: 'game_music_5' - setting to default audio group
+Missing audiogroup for sound: 'frog_noise' - setting to default audio group
+Missing audiogroup for sound: 'frog_button' - setting to default audio group
+Missing audiogroup for sound: 'shoot' - setting to default audio group
+Missing audiogroup for sound: 'pickaxe' - setting to default audio group
+Missing audiogroup for sound: 'enemy_air' - setting to default audio group
+Missing audiogroup for sound: 'enemy_tree' - setting to default audio group
+Missing audiogroup for sound: 'enemy_missile' - setting to default audio group
+Missing audiogroup for sound: 'enemy_plane' - setting to default audio group
+Missing audiogroup for sound: 'open_jump_1' - setting to default audio group
+Missing audiogroup for sound: 'open_jump_2' - setting to default audio group
+Missing audiogroup for sound: 'open_jump_3' - setting to default audio group
+Missing audiogroup for sound: 'open_jump_4' - setting to default audio group
+Game speed set to 60
+Added compatibility script 'background/__background_get.gml'
+Added compatibility script 'background/__background_get_element.gml'
+Added compatibility script 'background/__background_get_internal.gml'
+Added compatibility script 'background/__background_set.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script 'background/__background_set_internal.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'
